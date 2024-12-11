@@ -4,18 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <style>
+
+    </style>
 </head>
 <body>
-    <form action="POST">
+    <form id="form" method="post">
+        <h1>Formulário Gráfica JB</h1>
         <div>
-            <label for="name">Nome</label>
-            <input type="text" name="name" id="name">
-            <label for="phone">Telefone</label>
-            <input type="text" name="phone" id="phone">
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email">
-            <input type="submit" name="btn" id="btn">
+            <label for="name">Nome: </label>
+            <input type="text" name="name" id="name"> <br><br>
         </div>
+        <div>
+            <label for="phone">Telefone: </label>
+            <input type="text" name="phone" id="phone"><br><br>
+        </div>
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email"><br><br>
+        </div>
+            <input type="submit" name="btn" id="btn">
     </form>
+    <p id="message"></p>
+    <script src="index.js"></script>
 </body>
 </html>
